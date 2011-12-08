@@ -377,9 +377,9 @@ int test_ais_1( void )
         return 0;
     }
 
-    if( message.true != 174 )
+    if( message.true_heading != 174 )
     {
-        fprintf( stderr, "test_ais_1() failed: true\n");
+        fprintf( stderr, "test_ais_1() failed: true_heading\n");
         return 0;
     }
 
@@ -512,9 +512,9 @@ int test_ais_3( void )
         return 0;
     }
 
-    if( message.true != 79 )
+    if( message.true_heading != 79 )
     {
-        fprintf( stderr, "test_ais_3() failed: true\n");
+        fprintf( stderr, "test_ais_3() failed: true_heading\n");
         return 0;
     }
 
@@ -1433,9 +1433,9 @@ int test_ais_18( void )
         return 0;
     }
 
-    if( message.true != 511 )
+    if( message.true_heading != 511 )
     {
-        fprintf( stderr, "test_ais_18() failed: true\n");
+        fprintf( stderr, "test_ais_18() failed: true_heading\n");
         return 0;
     }
 

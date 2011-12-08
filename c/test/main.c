@@ -314,7 +314,7 @@ int main( int argc, char *argv[] )
                     printf("longitude   : %ld\n", msg_1.longitude );
                     printf("latitude    : %ld\n", msg_1.latitude );
                     printf("cog         : %d\n", msg_1.cog );
-                    printf("true        : %d\n", msg_1.true );
+                    printf("true_heading: %d\n", msg_1.true_heading );
                     printf("utc_sec     : %d\n", msg_1.utc_sec );
                     printf("regional    : %d\n", msg_1.regional );
                     printf("spare       : %d\n", msg_1.spare );
@@ -336,7 +336,7 @@ int main( int argc, char *argv[] )
                     printf("longitude   : %ld\n", msg_3.longitude );
                     printf("latitude    : %ld\n", msg_3.latitude );
                     printf("cog         : %d\n", msg_3.cog );
-                    printf("true        : %d\n", msg_3.true );
+                    printf("true_heading: %d\n", msg_3.true_heading );
                     printf("utc_sec     : %d\n", msg_3.utc_sec );
                     printf("regional    : %d\n", msg_3.regional );
                     printf("spare       : %d\n", msg_3.spare );

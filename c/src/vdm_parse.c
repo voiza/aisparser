@@ -295,7 +295,7 @@ int __stdcall conv_pos( long *latitude, long *longitude )
     /* Convert latitude to signed number */
     if( *latitude & 0x4000000 )
     {
-        *latitude -= 0x8000000
+        *latitude -= 0x8000000;
     }
 
     /* LONGITUDE */

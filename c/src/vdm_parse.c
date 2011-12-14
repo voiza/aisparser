@@ -302,7 +302,7 @@ int __stdcall conv_pos( long *latitude, long *longitude )
     /* Convert longitude to signed number */
     if( *longitude & 0x8000000 )
     {
-        *longitude = 0x10000000;
+        *longitude -= 0x10000000;
     }
 
     return 0;
